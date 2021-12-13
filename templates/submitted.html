@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JonathanKirkham, Jonathan, Front-End Developer">
+    <meta name="description" content="Jonathan Kirkham | Developer" />
+    <link rel="stylesheet" type="text/css" href="./static/css/main.css">
+    <link rel="shortcut icon" type="image/ico" href="{{ url_for('static', filename='favicon/favicon.ico') }}">
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <header id="hero" class="hero-area">
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-title">
+            <h1 class="left"><span class="name">{{ msg }}</span></h1>
+        </div>
+        </div>
+    </header>
+
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+    <script src="../static/js/copyright.js"></script>
+    <script src="../static/js/nav-toggle.js"></script>
+    <script src="../static/js/random.js"></script>
+
+
+</body>
+
+</html>

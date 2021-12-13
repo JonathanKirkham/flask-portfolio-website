@@ -1,0 +1,57 @@
+/* --- ANIMATION KEYFRAMES --- */
+
+@keyframes slideDown {
+    0% {
+        transform: skewX(25deg) translateY(-500px);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-500px) skewX(25deg);
+    }
+}
+
+@keyframes blink{
+    0% {
+        background-color: hsla(300, 1%, 25%, 0.7);
+    }
+
+    15% {
+        background-color: hsla(222, 21%, 28%, 0.7);
+
+    }
+
+    30% {
+        background-color: hsla(239, 24%, 41%, 0.7);
+    }
+
+    45% {
+        background-color: hsla(187, 28%, 36%, 0.7);
+    }
+
+    60% {
+        background-color: hsla(0, 0%, 35%, 0.7);
+    }
+
+    75% {
+        background-color: hsla(0, 20%, 34%, 0.7);
+    }
+
+    100% {
+        background-color: hsla(0, 0%, 13%, 0.7);
+    }
+}

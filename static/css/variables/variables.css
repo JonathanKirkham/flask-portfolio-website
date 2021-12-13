@@ -1,0 +1,12 @@
+:root {
+    --primary-color: hsla(96, 100%, 20%, 0.8);
+    --secondary-color: hsl(19, 100%, 63%);
+    --tertiary-color: hsl(0, 0%, 100%);
+
+    --image-shadow-color:hsla(0, 0%, 35%, 0.7);
+
+
+    --typewriter-cursor-color: hsl(0, 0%, 47%);
+
+    --section-title-color: hsl(0, 0%, 0%);
+}
